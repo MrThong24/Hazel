@@ -1,0 +1,141 @@
+
+/* Table */
+@media (min-width:740px) and (max-width:1023px){
+    #header .nav-header{
+        position: fixed;
+        margin-top: 70px;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        width: 100%;
+        max-width: 380px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding-top: 50px;
+        transition: 0.3s;
+    }
+    #header .nav-header.active2{
+        left: 0%;
+    }
+    #header .nav-header li{
+        display: block;
+    }
+    .nav-header li a {
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        line-height: 10px;
+        color: black;
+        font-size: 14px;
+        text-transform: none;
+        padding: 20px 0px;
+        transition: all 0.1s ease-in;
+    }
+    .nav-header li a.active:hover,
+    .nav-header li a:hover{
+        background-color: rgb(36, 36, 39);
+        color: white;
+    }
+    .nav-header li a.active{
+        color: black;
+    }
+    .header-icon-sidebar{
+        display: block;
+    }
+    .nav-header-close{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 10px 20px;
+    }
+    .nav-header-close .fa{
+        font-size: 30px;
+    }
+    .content h2{
+        font-size: 20px;
+    }
+    .content-title{    
+        font-size: 12px;  
+    }
+    .btn-swiper::after{
+        color: black;
+        font-size: 25px;
+    }
+}
+/* Mobile */
+@media (max-width:740px) {
+    #header .nav-header{
+        position: fixed;
+        margin-top: 70px;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        width: 100%;
+        max-width: 380px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding-top: 50px;
+        transition: 0.3s;
+    }
+    #header .nav-header.active2{
+        left: 0%;
+    }
+    #header .nav-header li{
+        display: block;
+
+    }
+    .nav-header li a {
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        line-height: 10px;
+        color: black;
+        font-size: 14px;
+        text-transform: none;
+        padding: 20px 0px;
+        transition: all 0.1s ease-in;
+    }
+    .nav-header li a.active:hover,
+    .nav-header li a:hover{
+        background-color: rgb(36, 36, 39);
+        color: white;
+    }
+    .nav-header li a.active{
+        color: black;
+    }
+    .header-icon-sidebar{
+        display: block;
+    }
+    .nav-header-close{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: block;
+        padding: 10px 20px;
+    }
+    .nav-header-close .fa{
+        font-size: 20px;
+    }
+    .header-icon-lock,
+    .header-icon-cart,
+    .header-icon-search{
+        display: none;
+    }
+    .content h2{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .content-title{    
+        font-size: 10px; 
+        letter-spacing: 3px; 
+    }
+    .content-btn .content-link-btn{
+        padding: 6px 10px;  
+    }
+    .btn-swiper::after{
+        color: black;
+        font-size: 20px;
+    }
+
+}
